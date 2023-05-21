@@ -1,0 +1,170 @@
+##html code
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div class="heading">
+   power registration
+   </div>
+<div class="form-details">
+    <form >
+        <label for="heronameInput" >hero name <br>
+        <input type="heronameInput" class="input" id="name">
+        </label><br>
+
+        <label for="DOBInput" >DOB <br>
+            <input type="date" class="input" id="number">
+            </label><br>
+            <label for="casses solved" >CASSES SOLVED <br>
+                <input type="number" class="input" id="number">
+                </label><br>
+        <label for="realidentity" >REAL NAME <br>
+            <input type="text" id="fname" name="fname"><br>
+                <input type="hidden" class="input" id="name">
+                </label><br>
+            
+
+        <label for="powers" >MENTION YOUR SUPERPOWER <br>
+                <input type="checkbox" name="power1" id="power" value="strenght">
+                <label for="power1">strength</label><br>
+                <input type="checkbox" name="power2" id="power" value="laser eyes">
+                <label for="power2">laser eyes</label><br>
+                <input type="checkbox" name="power3" id="power" value="flight">
+                <label for="power3">flight</label><br>
+                <input type="checkbox" name="power1" id="power4" value="other">
+                <label for="power4">other</label><br><br>
+
+        <label for="destruction" >ACTIVE RATE <br>
+        <input type="range"  min="0" max="100000000" id="fname" class="po" name="fname" value="1"><br>
+            </label><br>
+        
+            </label><br>
+        <label for="q1">EXPLAIN YOUR POWERS <br>
+            <textarea name="ans1" id="EXpow" cols="30" rows="10" class="input"></textarea><br>
+
+            <label for="q2" >INSPIRATION<br>
+                <textarea name="ans2" id="aim" cols="30" rows="10" class="input"></textarea> <br>
+
+                <label for="q3" >PREFRENTIAL TEAM <br>
+                    <textarea name="ans3" id="dream project" cols="1" rows="1" class="input"></textarea><br>
+        <label for='genderInput'>what is your gender<br>
+            <input type="checkbox" class="checkbox" name="gender1" id="gender" value="male">
+            <label for="gender1">male</label>
+            <input type="checkbox" class="checkbox" name="gender2" id="gender" value="female">
+            <label for="gender2">female</label>
+            <input type="checkbox" class="checkbox" name="gender3" id="gender" value="other">
+            <label for="gender3">other</label>
+            
+       
+        </label>
+
+        <button type="submit" id="submit" class="button">
+            submit
+        </button>
+    </form>
+</div>  
+   <script src="app.js" type="module"></script>
+</body>
+</html>
+
+##css code
+
+
+
+body{
+    margin: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("file:///home/ansh/Pictures/Wallpapers/unnamed.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:rgb(219, 19, 19);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading{
+ margin-top: 2% ;
+ background-color:rgba(223, 219, 10, 0.7);
+ width: 50%;
+ padding: 3% 0% 3% 0%;
+ text-align: center;
+ font-size: 28px;
+font-weight: 700;
+letter-spacing: 3px;
+text-transform: uppercase;
+}
+.form body{
+    margin-top: 2% ;
+    background-color:rgba(238, 6, 6, 0.7);
+    width: 50%;
+    padding: 3% 0% 3% 0%; 
+}
+
+.form details {
+    padding-top: 1.5%;
+    width: 50%;
+    background-color:hsla(0, 25%, 92%, 0.87);
+    margin-bottom: 2%;
+    padding-bottom: 1.5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font-size: 17px;
+}
+
+ .form details label{
+    height: 10px;
+    font-size: 15px;
+    border: 100%;
+     background-color: black;
+
+}
+
+.formdetails input{
+    height: 10px;
+    font-size: 15px;
+    border: none;
+    background-color: black;
+
+}
+
+.input{
+    outline: none;
+    width:100% ;
+    margin: top 2%; ;
+    margin: bottom 1.5%; 
+    color:black;
+}
+
+.button{
+    width: 100%;
+    text-align:center ;
+    padding: top 2%; 
+    padding-bottom: 2%;
+    font-size: 15px;
+    font: weight 700px; ;
+    border:2px ;
+    background-color: rgb(9, 230, 193);
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: rgba(130, 228, 19, 0.7);
+    transition: 0.4s;
+    border-color: black;
+
+}
+#form link
+file:///home/ansh/Desktop/vs%20st/main.html
