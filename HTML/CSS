@@ -11,65 +11,42 @@
 </head>
 <body>
    <div class="heading">
-   power registration
+    superhero registration form
    </div>
 <div class="form-details">
     <form >
-        <label for="heronameInput" >hero name <br>
-        <input type="heronameInput" class="input" id="name">
+        <label for="nameInput" >name <br>
+        <input type="nameInput" class="input" id="name">
         </label><br>
 
         <label for="DOBInput" >DOB <br>
             <input type="date" class="input" id="number">
             </label><br>
-            <label for="casses solved" >CASSES SOLVED <br>
-                <input type="number" class="input" id="number">
-                </label><br>
-        <label for="realidentity" >REAL NAME <br>
-            <input type="text" id="fname" name="fname"><br>
-                <input type="hidden" class="input" id="name">
-                </label><br>
-            
 
-        <label for="powers" >MENTION YOUR SUPERPOWER <br>
-                <input type="checkbox" name="power1" id="power" value="strenght">
-                <label for="power1">strength</label><br>
-                <input type="checkbox" name="power2" id="power" value="laser eyes">
-                <label for="power2">laser eyes</label><br>
-                <input type="checkbox" name="power3" id="power" value="flight">
-                <label for="power3">flight</label><br>
-                <input type="checkbox" name="power1" id="power4" value="other">
-                <label for="power4">other</label><br><br>
-
-        <label for="destruction" >ACTIVE RATE <br>
-        <input type="range"  min="0" max="100000000" id="fname" class="po" name="fname" value="1"><br>
+        <label for="superpower" >superpower <br>
+            <input type="checkbox" class="checkbox" id="super" >
             </label><br>
-        
-            </label><br>
-        <label for="q1">EXPLAIN YOUR POWERS <br>
-            <textarea name="ans1" id="EXpow" cols="30" rows="10" class="input"></textarea><br>
+        <label for="q1">explain your power <br>
+            <textarea name="ans1" id="power explaination" cols="30" rows="10" class="input"></textarea><br>
 
-            <label for="q2" >INSPIRATION<br>
+            <label for="q2" >why you want to be a superhero<br>
                 <textarea name="ans2" id="aim" cols="30" rows="10" class="input"></textarea> <br>
 
-                <label for="q3" >PREFRENTIAL TEAM <br>
-                    <textarea name="ans3" id="dream project" cols="1" rows="1" class="input"></textarea><br>
+                <label for="q3" >which superhero do you admire <br>
+                    <textarea name="ans3" id="dream project" cols="30" rows="10" class="input"></textarea><br>
         <label for='genderInput'>what is your gender<br>
-            <input type="checkbox" class="checkbox" name="gender1" id="gender" value="male">
-            <label for="gender1">male</label>
-            <input type="checkbox" class="checkbox" name="gender2" id="gender" value="female">
-            <label for="gender2">female</label>
-            <input type="checkbox" class="checkbox" name="gender3" id="gender" value="other">
-            <label for="gender3">other</label>
+            <input type="" class="checkbox" id="gender">
+                </label><br>
             
-       
+                    
         </label>
 
         <button type="submit" id="submit" class="button">
             submit
         </button>
     </form>
-</div>  
+
+   </div> 
    <script src="app.js" type="module"></script>
 </body>
 </html>
@@ -77,9 +54,8 @@
 ##css code
 
 
-
 body{
-    margin: cover;
+    margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,7 +64,7 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color:rgb(219, 19, 19);
+    color:black;
     font-family: Arial, Helvetica, sans-serif;
 }
 .heading{
@@ -102,19 +78,18 @@ font-weight: 700;
 letter-spacing: 3px;
 text-transform: uppercase;
 }
-.form body{
+.form-body{
     margin-top: 2% ;
     background-color:rgba(238, 6, 6, 0.7);
     width: 50%;
-    padding: 3% 0% 3% 0%; 
+    padding: 3% 5%; 
 }
 
-.form details {
-    padding-top: 1.5%;
+.form-details {
+    padding:3% 5% ;
     width: 50%;
-    background-color:hsla(0, 25%, 92%, 0.87);
+    background-color:hsla(24, 89%, 48%, 0.425);
     margin-bottom: 2%;
-    padding-bottom: 1.5%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -124,15 +99,15 @@ text-transform: uppercase;
     font-size: 17px;
 }
 
- .form details label{
+ .form-details-label{
     height: 10px;
     font-size: 15px;
     border: 100%;
-     background-color: black;
+     background-color: rgba(146, 140, 140, 0.219);
 
 }
 
-.formdetails input{
+.formdetails-input{
     height: 10px;
     font-size: 15px;
     border: none;
@@ -166,5 +141,8 @@ text-transform: uppercase;
     border-color: black;
 
 }
+
+
+
 #form link
 file:///home/ansh/Desktop/vs%20st/main.html
